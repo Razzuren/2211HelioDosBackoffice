@@ -1,0 +1,32 @@
+@charset "utf-8";
+@import "./support/sonoplastiawidget-variables.scss";
+
+.mesadesom-container {
+	background: url("/backoffice/widgetClasspathResource/widgets/SonoplastiaWidget/images/bg.jpg");
+	font-family: $sonoplastiawidget-container-font-family;
+	font-size: $sonoplastiawidget-container-font-size;
+    background-size:cover;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row{
+
+    padding: 20px;
+
+}
+
+.column{
+   padding: 20px;
+}

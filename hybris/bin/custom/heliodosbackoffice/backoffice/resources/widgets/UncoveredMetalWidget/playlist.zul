@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns="http://www.zkoss.org/2005/zul"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:h="http://www.w3.org/1999/xhtml"
+		xmlns:w="http://www.zkoss.org/2005/zk/client"
+		xmlns:zk="http://www.zkoss.org/2005/zk"
+		xsi:schemaLocation="http://www.zkoss.org/2005/zul http://www.hybris.com/schema/cockpitng/zul/zul.xsd"
+ 		height="100%">
+ 		
+	<div height="100%" class="playlist-container">
+
+		<div>
+			<label id="label" value="${labels.hello}" visible="false"/>
+		</div>
+
+		<!-- <iframe src="https://open.spotify.com/embed/playlist/4jDZSxIloViJihDzLQxu6m?utm_source=generator"
+				width="100%" height="100%"/> -->
+
+		<h:iframe style="border-radius:0px"
+				  src="${widgetModel.PLAYLIST}"
+				  width="100%" height="100%" frameBorder="0" allowfullscreen=""
+				  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+				  loading="lazy"></h:iframe>
+
+		<div>
+			<label value="${labels.hello}" sclass="yw-labelstyle" visible="false"/>
+		</div>
+
+	</div>
+</widget>

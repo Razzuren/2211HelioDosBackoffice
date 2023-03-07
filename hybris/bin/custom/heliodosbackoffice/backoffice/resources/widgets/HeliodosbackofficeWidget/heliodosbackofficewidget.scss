@@ -1,0 +1,35 @@
+@charset "utf-8";
+@import "./support/heliodosbackofficewidget-variables.scss";
+
+.yw-labelstyle
+{
+	color: $heliodosbackoffice-label-text-color;
+}
+
+.heliodosbackoffice-container {
+	background: $heliodosbackoffice-container-background;
+	font-family: $heliodosbackoffice-container-font-family;
+	font-size: $heliodosbackoffice-container-font-size;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.img-card{
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 1rem;
+    width: 320px;
+    height: 240px;
+    padding: 8px;
+    border-radius: 1rem;
+    background: url("/backoffice/widgetClasspathResource/widgets/HeliodosbackofficeWidget/images/helio.gif");
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    transform: perspective(1500px) rotateY(15deg);
+    transition: transform 1s ease 0s;
+}
+
+.img-card:hover{
+    transform: perspective(3000px) rotateY(1800deg);
+}

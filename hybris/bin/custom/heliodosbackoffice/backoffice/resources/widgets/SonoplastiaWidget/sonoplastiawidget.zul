@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns="http://www.zkoss.org/2005/zul"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:h="http://www.w3.org/1999/xhtml"
+		xmlns:w="http://www.zkoss.org/2005/zk/client"
+		xmlns:zk="http://www.zkoss.org/2005/zk"
+		xsi:schemaLocation="http://www.zkoss.org/2005/zul http://www.hybris.com/schema/cockpitng/zul/zul.xsd"
+ 		height="100%" width="100%">
+
+
+	<div height="100%" width="100%" class="mesadesom-container">
+
+		<div class="welcome-maguila" >
+			<label id="label" value="${labels.hello}" visible="false"/>
+		</div>
+
+		<div class="container">
+
+			<div class="row">
+				<div class="column">
+					<iframe width="110" height="200"
+							src="https://www.myinstants.com/instant/alcemar-chefe-45380/embed/"
+							scrolling="no"></iframe>
+				</div>
+				<div class="column">
+					<iframe width="110" height="200"
+							src="https://www.myinstants.com/instant/alcemar-chefe-45380/embed/"
+							scrolling="no"></iframe>
+				</div>
+				<div class="column">
+					<iframe width="110" height="200"
+							src="https://www.myinstants.com/instant/alcemar-chefe-45380/embed/"
+							scrolling="no"></iframe>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="column">
+					<iframe width="110" height="200"
+							src="https://www.myinstants.com/instant/alcemar-chefe-45380/embed/"
+							scrolling="no"></iframe>
+				</div>
+				<div class="column">
+					<iframe width="110" height="200"
+							src="https://www.myinstants.com/instant/alcemar-chefe-45380/embed/"
+							scrolling="no"></iframe>
+				</div>
+				<div class="column">
+					<iframe width="110" height="200"
+							src="https://www.myinstants.com/instant/alcemar-chefe-45380/embed/"
+							scrolling="no"></iframe>
+				</div>
+			</div>
+
+
+		</div>
+
+		<div>
+			<label value="${labels.hello}" sclass="yw-labelstyle" visible="false"/>
+		</div>
+
+	</div>
+
+</widget>

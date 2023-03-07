@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+ Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved
+-->
+<widget-definition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.hybris.com/schema/cockpitng/widget-definition.xsd"
+	id="dos.helio.backoffice.widgets.UncoveredMetalWidget">
+	<name>Stay with me Now</name>
+	<description>Travel in the dreams world</description>
+	<defaultTitle>In the waves, the bath</defaultTitle>
+	<author>HelioDosBackoffice</author>
+	<version>1.0</version>
+	<view src="playlist.zul" />
+	<keywords>
+		<keyword>playlist</keyword>
+	</keywords>
+	<controller class="dos.helio.backoffice.widgets.HeliodosbackofficeController" />
+</widget-definition>

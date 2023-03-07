@@ -1,0 +1,15 @@
+@charset "utf-8";
+@import "./support/heliodosbackofficewidget-variables.scss";
+
+.yw-labelstyle
+{
+	color: $heliodosbackoffice-label-text-color;
+}
+
+.playlist-container {
+	background: $heliodosbackoffice-container-background;
+	font-family: $heliodosbackoffice-container-font-family;
+	font-size: $heliodosbackoffice-container-font-size;
+    display: flex;
+}
+

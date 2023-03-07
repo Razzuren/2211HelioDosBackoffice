@@ -1,0 +1,13 @@
+@charset "utf-8";
+@import "./support/trainingwidget-variables.scss";
+
+.yw-labelstyle
+{
+	color: $training-label-text-color;
+}
+
+.training-container {
+	background: $training-container-background;
+	font-family: $training-container-font-family;
+	font-size: $training-container-font-size;
+}
